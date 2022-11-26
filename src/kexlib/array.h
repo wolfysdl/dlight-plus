@@ -47,7 +47,7 @@ public:
     void                Sort(compare_t *function);
     void                Sort(compare_t *function, unsigned int count);
 
-    const unsigned int  Length(void) const { return length; }
+    unsigned int  Length(void) const { return length; }
     type                GetData(const int index) { return data[index]; }
 
     type                &operator[](unsigned int index);
